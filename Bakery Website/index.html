@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/02982224a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cake Mart</title>
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="header">
+      <a href="index.html"
+        ><img src="../Bakery Website/image/logo.png" alt="" class="logo"
+      /></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#product">product</a>
+        <a href="#about">about</a>
+        <a href="./newArrivals.html">new Arrivals</a>
+        <a href="./menu.html">collection</a>
+        <a href="#gallery">gallery</a>
+        <!-- <a href="#team">team</a> -->
+
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+        <div class="user-icon">
+          <a href="./signin.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <!-- search barr -->
+
+      <div class="search-form">
+        <input
+          type="search"
+          name="search"
+          id="search-box"
+          placeholder="search here..."
+        />
+        <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+      </div>
+
+      <!-- search bar end -->
+    </header>
+
+    <!-- header end -->
+
+    <!-- shopping cart -->
+
+    <div class="cart-items-container">
+      <div id="close-form" class="fas fa-times"></div>
+      <h3 class="title">ORDER</h3>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="../Bakery Website/image/brownes.png" alt="" />
+        <div class="content">
+          <h3>chocolate cake</h3>
+          <div class="price">₹650</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="../Bakery Website/image/cheesecake2.jpg" alt="" />
+        <div class="content">
+          <h3>lemon cake</h3>
+          <div class="price">₹550</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="../Bakery Website/image/cheesecake4.jpg" alt="" />
+        <div class="content">
+          <h3>Fruit cake</h3>
+          <div class="price">₹880</div>
+        </div>
+      </div>
+
+      <a href="./payment.html" class="btn"> Order Now </a>
+    </div>
+
+    <!-- shopping cart end-->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(./image/background3.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>we bake the world a better place</h3>
+              <a href="#" class="btn"> get started </a>
+            </div>
+            <div class="custom-link-div">
+              <h5 style="font-size: 3rem; color: white">
+                Crafting Memories, One Slice at a Time
+              </h5>
+              <a href="./custom.html" class="btn"
+                >Order Your Custom Cake Today</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(./image/backimaage.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>we bake the world a better place</h3>
+              <a href="#" class="btn"> get started </a>
+            </div>
+            <div class="custom-link-div">
+              <h5 style="font-size: 3rem; color: white">
+                Crafting Memories, One Slice at a Time
+              </h5>
+              <a href="./custom.html" class="btn"
+                >Order Your Custom Cake Today</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+      <h1 class="heading">our <span> products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/cakeimage/rainbowcake.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Rainbow cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹400</span>
+            <a href="product_detail.html" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/cakeimage/goldmenscake.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>goldmens cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹600</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/cakeimage/carloscake.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>chocolate cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span class="price">$11.99</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/cakeimage/wcreame.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Lemon cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹650</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              src="../Bakery Website/cakeimage/Savannahs-Candy-Kitchens-Red-Velvet-Cake.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Red Velvet cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span class="price">₹650</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              src="../Bakery Website/cakeimage/Sugarees-Strawberry-Cake.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Strawberry cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹700</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="../Bakery Website/cakeimage/Mishas-Cupcakes-Funfetti.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Cup cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹800</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="../Bakery Website/cakeimage/Lloyds-Carrot-Cake.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Carrot cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹550</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/cakeimage/gledycake.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Gledy cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹900</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/cakeimage/whitecake.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Cream cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹700</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/cake4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Fruite cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹740</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/cheesecake3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>cheese cake</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <span class="price">₹890</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product end-->
+
+    <!-- about us -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="../Bakery Website/cakeimage/aboutcake.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>What Makes Our<span> Cakes </span>special?</h3>
+          <p>
+            The Cake Shop specialize in Desserts & Cakes. we believe in "Quality
+            in our Edge", from selecting the ingredients around India to the
+            final exqusite creation that "Bring you smiles for Sure". Our cake
+            shop brings the essence of India to every bite. With locally sourced
+            ingredients and traditional spices, our cakes capture the flavors of
+            India's diverse cuisine. Our theme based Creative Cakes, Cake pop ,
+            Cup Cakes and Desserts for Parities, make you Party Unique and
+            Inevitable. We spend more time in understanding customers
+            expectation, <br />
+            So we Perfectly Personalize to the Needs
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us end-->
+
+    <!-- gallery -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">our <span> gallery</span></h1>
+
+      <div class="gallery-container">
+        <a href="image/brownes.png" class="box">
+          <img src="../Bakery Website/cakeimage/anneshcake.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="image/begni.png" class="box">
+          <img src="../Bakery Website/cakeimage/Bluecake.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="image/cheesecake6.jpg" class="box">
+          <img
+            src="../Bakery Website/cakeimage/Carlos-Bakerys-Rainbow-Cake.jpg"
+            alt=""
+          />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="image/ch.jpg" class="box">
+          <img src="../Bakery Website/cakeimage/carloscake.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="image/cheese.jpg" class="box">
+          <img src="../Bakery Website/cakeimage/florecake.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="image/cake5.jpg" class="box">
+          <img src="../Bakery Website/cakeimage/gledycake.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="image/choklate.jpg" class="box">
+          <img src="../Bakery Website/image/macroons1.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="image/cheesecake4.jpg" class="box">
+          <img src="../Bakery Website/cakeimage/Bluecake.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- gallery end -->
+
+    <!-- parallax -->
+
+    <section class="parallax">
+      <h1 class="heading">Variety<span> of cakes</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/cake2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Cream cake</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea minus
+              laudantium placeat suscipit.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/cake4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Black Forest cake</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea minus
+              laudantium placeat suscipit.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/cake5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Sponge cake</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea minus
+              laudantium placeat suscipit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallax -->
+
+    <!-- review -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./image/virat.jpg" class="user" alt="" />
+          <h3>Virat Kohli</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>
+            Absolutely delicious cakes! The flavors are rich and indulgent, and
+            the presentation is impeccable. I ordered a custom cake for my
+            daughter's birthday, and it was a showstopper. The attention to
+            detail and the freshness of the ingredients truly set this cake shop
+            apart.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./image/messi.jpg" class="user" alt="" />
+          <h3>Lionel Messi</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>
+            The service at this cake shop is outstanding. From the moment I
+            walked in, I was greeted with warmth and professionalism. The staff
+            took the time to understand exactly what I wanted for my event and
+            delivered beyond my expectations. Their passion for baking and
+            commitment to customer satisfaction shines through in every bite of
+            their delectable cakes.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./image/dhoni.jpg" class="user" alt="" />
+          <h3>Ms Dhoni</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>
+            I've been a loyal customer of this cake shop for years, and they
+            never disappoint. Their cakes are consistently moist, flavorful, and
+            beautifully decorated. Whether it's a simple treat for myself or a
+            grand celebration cake, I know I can always count on them for
+            quality and taste.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- review -->
+
+    <!-- order -->
+
+    <section class="order" id="order">
+      <h1 class="heading"><span>order</span> now</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/order.gif" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="first name" />
+            <input type="text" placeholder="last name" />
+          </div>
+
+          <div class="inputBox">
+            <input type="email" placeholder="email address" />
+            <input type="number" placeholder="phone number" />
+          </div>
+
+          <div class="inputBox">
+            <input type="text" placeholder="food name" />
+            <input type="number" placeholder="how much" />
+          </div>
+
+          <textarea
+            placeholder="your address"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="order now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- order end -->
+
+    <!-- team -->
+
+    <section class="team" id="team">
+      <h1 class="heading">our <span>team</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/renveer3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Ranveer Barar</h3>
+            <p>CEO</p>
+            <div class="share">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/girlimage.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Suhana Shaikh</h3>
+            <p>manager</p>
+            <div class="share">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../Bakery Website/image/chef5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Anna Bhao</h3>
+            <p>manager</p>
+            <div class="share">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team end  -->
+
+    <!-- footer -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>address</h3>
+          <p>
+            Bhopal,Sector-C indrpuri C95 <br />
+            near by RK Hospital
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>E-mail</h3>
+          <a href="#" class="link">skhan61141@gmail.com</a>
+          <a href="#" class="link">skhan61141@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <h3>call us</h3>
+          <p>+91 6265493096</p>
+          <p>+91 9685493096</p>
+        </div>
+
+        <div class="box">
+          <h3>opening hours</h3>
+          <p>
+            Monday - Friday: 9:00Am - 11:00Pm <br />
+            Saturday: 8:00Am - 12:00Am <br />
+            Sunday: Order-Cakes
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer ends -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".gallery .gallery-container"));
+    </script>
+  </body>
+</html>

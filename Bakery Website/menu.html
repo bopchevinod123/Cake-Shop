@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Mart</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+      
+    </style>
+</head>
+<body>
+    <header class="header">
+       <a href="index.html"> <img src="../Bakery Website/image/logo.png" alt="" class="logo" /></a>
+  <div class="n">
+        <nav class="navbar">
+          <a href="#wedding">Wedding</a>
+          <a href="#birthday">Birthday</a>
+          <a href="#Ainversary">Anivershary</a>
+          <a href="./newArrivals.html">new Arrivals</a>
+          <a href="./custom.html">Custom Cakes</a>
+          <!-- <a href="#team">team</a> -->
+        </nav>
+    </div>
+ 
+  
+        <div class="icons">
+          <div class="user-icon">
+            <a href="./signin.html"><i class="fa-solid fa-user"></i></a>
+          </div>
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div id="cart-btn" class="fas fa-shopping-cart"></div>
+          <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+  
+        <!-- search barr -->
+  
+        <div class="search-form">
+          <input
+            type="search"
+            name="search"
+            id="search-box"
+            placeholder="search here..."
+          />
+          <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+  
+        <!-- search bar end -->
+      </header>
+      <!-- new add -->
+      <div class="cart-items-container">
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">ORDER</h3>
+  
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="../Bakery Website/image/brownes.png" alt="" />
+          <div class="content">
+            <h3>chocolate cake</h3>
+            <div class="price">₹650</div>
+          </div>
+        </div>
+  
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="../Bakery Website/image/cheesecake2.jpg" alt="" />
+          <div class="content">
+            <h3>lemon cake</h3>
+            <div class="price">₹550</div>
+          </div>
+        </div>
+  
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="../Bakery Website/image/cheesecake4.jpg" alt="" />
+          <div class="content">
+            <h3>Fruit cake</h3>
+            <div class="price">₹880</div>
+          </div>
+        </div>
+  
+        <a href="./payment.html" class="btn"> Order Now </a>
+      </div>
+      <!-- new end -->
+
+      <!-- slider -->
+      <br>
+      <div class="container">
+        <div class="slider-wrapper">
+         <!-- <h1>MENU <span> & </span> PRICING</h1> -->
+          <button id="prev-slide" class="slide-button material-symbols-rounded">
+            chevron_left
+          </button>
+          <ul class="image-list">
+            <img class="image-item" src="./images/img-1.jpg" alt="img-1" />
+            <img class="image-item" src="./images/img-2.jpg" alt="img-2" />
+            <img class="image-item" src="./images/img-3.jpg" alt="img-3" />
+            <img class="image-item" src="./images/img-4.jpg" alt="img-4" />
+            <img class="image-item" src="./images/img-5.jpg" alt="img-5" />
+            <img class="image-item" src="./images/img-10.jpg" alt="img-6" />
+            <img class="image-item" src="./images/img-6.jpg" alt="img-7" />
+            <img class="image-item" src="./images/mg-7.jpg" alt="img-8" />
+            <img class="image-item" src="./images/img-8.jpg" alt="img-9" />
+            <img class="image-item" src="./images/photo9.png" alt="img-10" />
+          </ul>
+          <button id="next-slide" class="slide-button material-symbols-rounded">
+            chevron_right
+          </button>
+        </div>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+          </div>
+        </div>
+     
+
+
+<section class="product" id="wedding">
+  <h1 class="heading">Wedding <span> Cakes</span></h1>
+
+   
+<!-- new start -->
+   <div class="box-container">
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-1.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>Rainbow cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹700</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> .... explore</a></p>
+         </div>
+       </div>
+
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-2.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>goldmens cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹300</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-3.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>chocolate cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+           </div>
+           <span class="price">₹450</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-4.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>Lemon cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹690</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+
+       <div class="box">
+         <div class="image">
+           <img
+             src="../Bakery Website/cakeimage/img-5.jpg"
+             alt=""
+           />
+         </div>
+         <div class="content">
+           <h3>Red Velvet cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+           </div>
+           <span class="price">₹350</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+
+       <div class="box">
+         <div class="image">
+           <img
+             src="../Bakery Website/cakeimage/img-6.jpg"
+             alt=""
+           />
+         </div>
+         <div class="content">
+           <h3>Strawberry cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹900</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+       <div class="box">
+         <div class="image">
+           <img
+             src="../Bakery Website/cakeimage/mg-7.jpg"
+             alt=""
+           />
+         </div>
+         <div class="content">
+           <h3>Cup cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹500</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+       <div class="box">
+         <div class="image">
+           <img
+             src="../Bakery Website/cakeimage/img-8.jpg"
+             alt=""
+           />
+         </div>
+         <div class="content">
+           <h3>Carrot cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹330</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-9.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>Gledy cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹600</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-10.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>Cream cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹700</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-11.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>Fruite cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹740</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+       <div class="box">
+         <div class="image">
+           <img src="../Bakery Website/cakeimage/img-12.jpg" alt="" />
+         </div>
+         <div class="content">
+           <h3>cheese cake</h3>
+           <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+           </div>
+           <span class="price">₹890</span>
+           <a href="#" class="btn">add to cart</a>
+           <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+         </div>
+       </div>
+     </div>
+
+       
+     <!-- new start end -->
+
+</section>
+
+
+<section class="product" id="birthday">
+
+  <h1 class="heading">Birthday <span> Cakes</span></h1>
+
+ <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/cakeimage/img-13.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Rainbow cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹400</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> .... explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/cakeimage/img-14.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>goldmens cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹600</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/cakeimage/img-15.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>chocolate cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">₹250</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/cakeimage/img-16.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Lemon cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹650</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Red Velvet cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">₹650</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Strawberry cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹700</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo3.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Cup cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹800</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo4.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Carrot cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹550</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo5.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Gledy cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹900</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo6.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Cream cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹700</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo7.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Fruite cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹740</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo8.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>cheese cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹890</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="product" id="Ainversary">
+  <h1 class="heading">Anivershary <span> Cakes</span></h1>
+
+  <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo9.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Rainbow cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹400</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> .... explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo10.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>goldmens cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹600</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo11.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>chocolate cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">₹300</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/photo12.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Lemon cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹650</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo13.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Red Velvet cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">₹650</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo15.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Strawberry cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹700</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo16.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Cup cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹800</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img
+            src="../Bakery Website/images/photo18.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Carrot cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹550</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/crishpy.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Gledy cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹900</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/gallery1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Cream cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹700</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/images/gallery2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Fruite cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹740</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="../Bakery Website/image/cake5.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>cheese cake</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="price">₹890</span>
+          <a href="#" class="btn">add to cart</a>
+          <p style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique? <a href="#"> ....explore</a></p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- local footer start -->
+      <h4 id="tag">Special Combo Pack</h4>
+
+      <div class="footer">
+          <h1>SUPER <span>CRISPY</span> CAKES</h1>
+          <img src="./images/crishpy.jpg" alt="">
+  
+          <P>Certainly! Let’s explore some delightful crispy cake options:
+  
+              Moist Chocolate Crunch Cake with Rice Krispies:
+              This homemade chocolate crunch cake features fluffy, moist layers with a rich flavor. The highlight? A decadent chocolate ganache frosting and a dark chocolate crunch layer made with Rice Krispies. It’s a crispy, crunchy delight! 😋
+              Ingredients:
+              Canola or Vegetable Oil
+              Granulated Cane Sugar
+              Unsweetened Applesauce (replaces eggs for moisture)
+              Dairy-Free Milk (like almond milk or oat milk)
+              Pure Vanilla Extract
+              All-Purpose Flour
+              Unsweetened Natural Cocoa Powder
+              Instant Coffee or Espresso (optional, for intensified chocolate flavor)
+              Dark or Semi-Sweet Chocolate
+              Rice Krispies
+             
+              Feel free to choose your favorite and enjoy the crispy goodness! 🍰🍫
+              
+  
+              </P>
+  
+          <div >
+              <button>Shop Now</button>
+              <button>Read More</button>
+          </div>
+      </div>
+<!-- local footer end -->
+
+<!-- main footer start -->
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>address</h3>
+            <p>
+              Bhopal,Sector-C indrpuri C95 <br />
+              near by RK Hospital
+            </p>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <h3>E-mail</h3>
+            <a href="#" class="link">skhan61141@gmail.com</a>
+            <a href="#" class="link">skhan61141@gmail.com</a>
+          </div>
+  
+          <div class="box">
+            <h3>call us</h3>
+            <p>+91 6265493096</p>
+            <p>+91 9685493096</p>
+          </div>
+  
+          <div class="box">
+            <h3>opening hours</h3>
+            <p>
+              Monday - Friday: 9:00Am - 11:00Pm <br />
+              Saturday: 8:00Am - 12:00Am <br />
+              Sunday: Order-Cakes
+            </p>
+          </div>
+        </div>
+  
+  
+      </section>
+      <!-- main footer end -->
+  <script src="./js/menu.js" defer></script>
+</body>
+</html>
